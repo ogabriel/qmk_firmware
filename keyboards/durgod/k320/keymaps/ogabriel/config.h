@@ -17,8 +17,11 @@
 
 #pragma once
 
+// normal settings
 #define DYNAMIC_KEYMAP_LAYER_COUNT 3
+#define NO_MUSIC_MODE
+
+// gamery settings
 #define FORCE_NKRO
 #define USB_POLLING_INTERVAL_MS 1
-#define NO_MUSIC_MODE
-#define QMK_KEYS_PER_SCAN 4
+#define QMK_KEYS_PER_SCAN 12
