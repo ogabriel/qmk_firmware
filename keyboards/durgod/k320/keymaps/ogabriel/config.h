@@ -25,6 +25,8 @@
 #define FORCE_NKRO
 #define USB_POLLING_INTERVAL_MS 1
 #define QMK_KEYS_PER_SCAN 10
+#define GPIO_INPUT_PIN_DELAY 0
+#define DEBOUNCE 1
 
 // mouse settings
 #define MK_KINETIC_SPEED                        // Enable Kinetic mode:  Uses a quadratic curve on cursor speed to allow precise movements at the beginning and increases speed thereafter.
